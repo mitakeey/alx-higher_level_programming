@@ -29,4 +29,3 @@ if __name__ == "__main__":
         print("{:s}: ({:d}) {:s}".format(q[0], q[1], q[2]))
 
     session.close()
-    

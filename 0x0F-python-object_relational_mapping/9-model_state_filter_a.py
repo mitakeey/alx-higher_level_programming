@@ -27,4 +27,3 @@ if __name__ == "__main__":
         print("{:d}: {:s}".format(state.id, state.name))
 
     session.close()
-    

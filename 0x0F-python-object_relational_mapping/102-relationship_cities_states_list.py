@@ -29,4 +29,3 @@ if __name__ == "__main__":
         print("{}: {} -> {}".format(city.id, city.name, city.state.name))
 
     session.close()
-    
