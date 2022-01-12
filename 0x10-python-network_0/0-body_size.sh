@@ -1,4 +1,4 @@
 #!/bin/bash
 # sends request to URL and displays size of the body in response
 
-curl -s ${URL} | grep -i content-length | wc -c
+curl -sI "$1" | grep -i Content-Length | cut -d ' ' -f2
