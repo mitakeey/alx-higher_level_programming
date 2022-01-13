@@ -1,5 +1,8 @@
 #!/usr/bin/python3
-''' Gets a URL and sends a request to the URL then displays the body of the response. '''
+'''
+Gets a URL and sends a request to the URL
+displays the body of the response
+'''
 import sys
 import requests
 

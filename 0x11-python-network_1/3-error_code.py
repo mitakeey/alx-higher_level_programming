@@ -1,7 +1,8 @@
 #!/usr/bin/python3
-'''A script that:
-Gets URL and sends a request to the URL then
-displays the body of the response (decoded in utf-8).
+
+'''
+Gets URL,sends a request to the URL
+displays the body of the response (decoded in utf-8)
 '''
 
 if __name__ == "__main__":
